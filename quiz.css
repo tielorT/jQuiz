@@ -1,0 +1,54 @@
+html{
+    background-color: aquamarine;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: dimgrey;
+    font-family: fantasy;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    color: darkslategray;
+}
+#quiz{
+    background-color: darksalmon;
+    width: 800px;
+    height: 350px;
+    margin: auto;
+    position: relative;
+}
+#quiz h2{
+    text-align: center;
+    padding-top: 40px;
+    font-family:cursive
+}
+#click{
+    text-align: center;
+    bottom: 50px;
+    left: 42.5%;
+    position: absolute;
+    border: 2px solid black; 
+    padding: 10px;
+    }
+#click:hover{
+    cursor: pointer;
+}
+.answer{
+    text-align: center;
+    border: 2px solid black; 
+    padding: 10px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    display: none;
+}
+.answer:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #61B7D4;
+
+}
